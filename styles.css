@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,900');
+
+body{
+	background: #f5f5f5;
+}
+
+.fake img{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.brand-header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+	position: relative;
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* DEMO 1*/
+
+.demo1 .box-brand {
+    padding: 15px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    right: 0;
+    padding-right: 200px;
+    bottom: 30px;
+    font-size: 18px;
+	
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+.demo1 .box-brand img {
+    width: auto !important;
+    height: auto !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.demo1 .box-title {
+    position: absolute;
+    max-width: 50%;
+    color: #fff;
+    top: 45%;
+    margin-left: 160px;
+    margin-top: -50px;
+}
+
+.demo1 .box-title h2 {
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.demo1 .box-title h2:before {
+    content: " ";
+    position: absolute;
+    width: 25px;
+    height: 6px;
+    background: #ffffff;
+    top: -20px;
+}
+
+img.header-bg-pic {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.demo1 .owl-nav {
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.demo1 .owl-prev {
+    float: left;
+}
+
+.demo1 .owl-next {
+    float: right;
+}
+
+.demo1 .text-out-carousel {
+    max-width: 650px;
+    margin: 0 auto;
+    clear: both;
+	margin-bottom: 30px;
+}
+
+.demo1 .text-out-carousel h3{
+    color: #f6b41b;
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+.demo1 .text-out-carousel p{
+    font-size: 17px;
+}
+
+
+/* DEMO 2 */
+.demo2 .header-video h1 {
+    font-size: 42px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.demo2 .header-video {
+    height: 675px;
+    overflow: hidden;
+    width: 100%;
+    color: #ffffff;
+    padding: 30px 60px;
+    position: relative;
+}
+
+.demo2 video#videobg {
+    height: 100%;
+    position: absolute;
+    top: 0;
+	left: 0;
+    z-index: -2;
+}
+.demo2 .videoOpacity {
+    content: " ";
+    background: #000000;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+	left: 0;
+}
+
+.demo2 .box-brand {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+
+.demo2 .box-interactive {
+    max-width: 500px;
+    margin-top: 180px;
+	color: #f6b41b;
+	font-size: 26px;
+}
+
+.demo2 .box-interactive h3 {
+    font-size: 29px;
+	font-family: 'Roboto Slab', serif;
+	color: #ffffff;
+}
+
+.demo2 .box-interactive .toggle-content {
+    overflow: hidden;
+    height: 1px;
+}
+
+.demo2 .box-interactive .toggle {
+	cursor: pointer;
+}
+
+
+.demo2 .box-interactive  .toggle .toggle-content {
+    transition: height 0.5s ease;
+}
+.demo2 .box-interactive  .toggle:hover H3 {
+    font-weight: bold;
+}
+
+.demo2 .box-interactive  .toggle:hover .toggle-content {
+    height: 150px;
+}
+
+.demo2 .text-out {
+    margin: 30px auto;
+	max-width: 1100px;
+	padding: 0 15px;
+	
+}
+
+.demo2 .text-out h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 21px;
+    float: right;
+    margin-top: 41px;
+    font-weight: bold;
+}
+
+/* DEMO 3*/
+
+.demo3 .header {
+    margin-bottom: 30px;
+}
+
+
+.demo3 .header h1 {
+    color: #212a51;
+    font-size: 42px;
+    position: relative;
+    left: 80px;
+}
+
+.demo3 .box-brand {
+    position: absolute;
+    top: 0px;
+    right: 80px;
+}
+
+.demo3 .box-interactive {
+    height: 600px;
+    background-image: url(imgs/demo3/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.demo3 .box-interactive .col {
+    height: 100%;
+    padding: 30px;
+    width: 280px;
+    color: #ffffff;
+    border-right: 1px solid #f6b41b;
+    float: left;
+    padding-top: 270px;
+	transition: all 0.5s ease;
+}
+
+.demo3 .box-interactive .col:last-child {
+    border-right: 0;
+}
+
+.demo3 .box-interactive .col h3{
+    font-size: 14px;
+	font-weight: bold;
+}
+
+.demo3 .box-interactive .col h2{
+    font-size: 18px;
+	font-weight: bold;
+}
+
+.demo3 .box-interactive .col p{
+    font-size: 17px;
+}
+
+.demo3 .box-interactive .col .icon1 {
+    width: 86px;
+    height: 88px;
+    background: url(imgs/demo3/icon1.png);
+}
+.demo3 .box-interactive .col .icon2 {
+    width: 86px;
+    height: 88px;
+    background: url(imgs/demo3/icon2.png);
+}
+.demo3 .box-interactive .col .icon3 {
+    width: 86px;
+    height: 88px;
+    background: url(imgs/demo3/icon3.png);
+}
+
+
+
+@media (min-width: 951px){
+	
+	.demo3 .box-interactive .col:hover{
+		 padding-top: 200px;
+	}
+
+
+	.demo3 .box-interactive .col:hover .icon1 {
+		background: url(imgs/demo3/icon1b.png);
+	}
+	.demo3 .box-interactive .col:hover .icon2 {
+		background: url(imgs/demo3/icon2b.png);
+	}
+	.demo3 .box-interactive .col:hover .icon3 {
+		background: url(imgs/demo3/icon3b.png);
+	}
+	
+}
+
+@media (max-width: 950px){
+	
+	.demo1 .box-title {
+		max-width: 100%;
+		top: 25%;
+		margin-left: 30px;
+	}
+
+	.demo1 .box-brand {
+		padding-right: 60px;
+		font-size: 12px;
+		bottom: 10px;
+	}
+	.demo1 .box-brand img {
+		width: 110px !important;
+	}
+	
+	.text-out-carousel, .demo1.brand-header .owl-nav {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	
+	
+	
+	
+	.demo3 .box-interactive{
+		height: auto;
+	}
+	
+	.demo3 .header h1 {
+		font-size: 24px;
+		left: 0;
+		margin-left: 10px;
+	}
+
+	.demo3 .box-brand {
+		position: relative;
+		top: 0;
+		right: 0;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+	.demo3 .box-brand img{
+		width: 150px;
+	}
+	
+	
+	.demo3 .box-interactive .col {
+		height: auto;
+		padding: 30px;
+		width: 100%;
+		color: #ffffff;
+		border-right: 0;
+		float: none;
+	}
+
+}
+	
+	
+@media (max-width: 660px){
+	
+
+	
+	.demo1 .box-title h2 {
+		font-size: 22px;
+	}
+	
+	.demo2 .header-video {
+		padding: 15px 10px;
+	}
+	
+	.demo2 .header-video h1 {
+		font-size: 24px;
+		font-family: 'Roboto Slab', serif;
+	}
+
+	.demo2 .box-brand {
+		position: relative;
+		top: 0;
+		right: 0;
+		margin-top: 30px;
+	}
+	
+	.demo2 .box-interactive {
+		max-width: 500px;
+		margin-top: 70px;
+		color: #f6b41b;
+		font-size: 16px;
+	}
+	
+	.demo2 .box-interactive h3 {
+		font-size: 18px;
+	}
+	
+	.demo2 .text-out {
+		text-align: center;
+	}
+	
+	.demo2 .text-out h3 {
+		float: none;
+	}
+	
+
+}
+

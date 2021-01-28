@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="shortcut icon" type="image/png" href="/favicon.png" >
+
+		<title>Demo 1</title>
+		<meta name="description" content="">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.css">
+		
+		<link rel="stylesheet" href="styles.css?v=1.0">
+
+		<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+	
+		<div class="fake">
+			<img src="imgs/fakehead.jpg">
+		</div>
+		
+		<div class="brand-header demo1">
+		
+		
+			<div class="owl-carousel header-carousel">
+		
+				<div>
+				
+					<div class="box-title">
+					
+						<h2>Necesitás un cambio<br> necesitás Crowe Horwath.</h2>
+					
+					</div>
+					
+					<div class="box-brand">
+					
+						Trabajá con nosotros<br>
+						<img src="imgs/demo1/brand.png">
+						
+					</div>
+					
+					<img src="imgs/demo1/bg1.jpg" class="header-bg-pic">
+					
+				</div>
+				
+				<div>
+				
+					<div class="box-title">
+					
+						<h2>Somos una de las empresas más grandes de auditoría,  impuestos y consultoría del país.</h2>
+
+					</div>
+					
+					<div class="box-brand">
+					
+						Trabajá con nosotros
+						
+						<img src="imgs/demo1/brand.png">
+						
+					</div>
+					
+					<img src="imgs/demo1/bg2.jpg" class="header-bg-pic">
+				
+				</div>
+		
+			</div>
+			
+			
+			<div class="text-out-carousel">
+			
+				<h3>-<br>Somos una de las empresas más grandes <br>de auditoría, impuestos y consultoría del país. </h3>
+			
+				<p>Representamos a Crowe Horwath International, una de las mayores redes de firmas de servicios profesionales del mundo. Tenemos oficinas en las principales ciudades de Argentina, estamos cerca de nuestros clientes.</p>
+			</div>
+		
+		</div>
+		
+		<div class="fake">
+			<img src="imgs/fake-list.jpg">
+		</div>
+	
+		<script src="js/jquery.min.js"></script>
+		
+		<script src="js/owl.carousel.min.js"></script>
+		<script>
+
+		$(document).ready(function(){
+			 $('.header-carousel').owlCarousel({
+				items:1,
+				singleItem: true,
+				loop: true,
+				dots: false,
+				nav: true,
+				navText: ["<img src='imgs/prev.png'>","<img src='imgs/next.png'>"]
+			})	
+		})
+		
+		</script>
+
+	</body>
+</html>
